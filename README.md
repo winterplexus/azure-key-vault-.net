@@ -1,29 +1,43 @@
-Azure Key Vault Applications for .NET Core
-==========================================
+Azure Key Vault Applications for .NET
+=====================================
 
-Azure Key Vault applications based on .NET Core platform using Microsoft Graph API. The applications can provision and manage Azure Key Vault keys and secrets.
+Azure Key Vault services based on .NET core platform using Microsoft Identity Client and Azure Security KeyVault Client.
 
-The applications include:
+Key Vault services services library can provision and manage keys and secrets using the primary interface:
 
-* KeyVaultKeys - provisions and manages Azure Key Vault keys
+* IKeyVaultManager interface:
 
-* KeyVaultSecrets - provisions and manages Azure Key Vault secrets
+```
+    public interface IKeyVaultManager
+    {
+        IKeysManagement KeysService();
+        ISecretsManagement SecretsService();
+    }
+```
+where:
 
-**KeyVaultKeys**
+* IKeysManagement interface
 
-Permitted actions:
+```
+    public interface IKeysManagement
+    {
+        KeysResponse List();
+        Task<KeysResponse> Create(string keyName, KeyType keyType);
+        Task<KeysResponse> Retrieve(string keyName);
+        Task<KeysResponse> Update(string keyName, string tagName, string tagValue);
+        Task<KeysResponse> Delete(string keyName);
+    }
+```
 
-* create
-* get
-* update
-* delete
-* purge"
+* ISecretsManagement interface
 
-**KeyVaultSecrets**
-
-Permitted actions:
-
-* set
-* get
-* delete
-* purge
+```
+    public interface ISecretsManagement
+    {
+        public SecretsResponse List();
+        Task<SecretsResponse> Create(string secretName, string secretValue);
+        Task<SecretsResponse> Retrieve(string secretName);
+        Task<SecretsResponse> Update(string secretName, string tagName, string tagValue);
+        Task<SecretsResponse> Delete(string secretName);
+    }
+```

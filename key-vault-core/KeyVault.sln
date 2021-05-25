@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyVaultSecrets", "KeyVaultSecrets\KeyVaultSecrets.csproj", "{0DECB394-AC32-43A9-8BFE-C7B98932A3C6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyVaultKeys", "KeyVaultKeys\KeyVaultKeys.csproj", "{CC25578F-F462-42F1-9C17-82BCE9DE076D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B493BA3-A1EC-40F3-9424-8A80E705D7E4}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyVault.Services", "KeyVault.Services\KeyVault.Services.csproj", "{AEE3476F-16A2-4C24-95E7-CF29F55F5CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyVault.Services.Console.Application", "KeyVault.Services.Console.Application\KeyVault.Services.Console.Application.csproj", "{8B4101F0-4550-4DD0-BE00-DA059176E2F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DECB394-AC32-43A9-8BFE-C7B98932A3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DECB394-AC32-43A9-8BFE-C7B98932A3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DECB394-AC32-43A9-8BFE-C7B98932A3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DECB394-AC32-43A9-8BFE-C7B98932A3C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC25578F-F462-42F1-9C17-82BCE9DE076D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC25578F-F462-42F1-9C17-82BCE9DE076D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC25578F-F462-42F1-9C17-82BCE9DE076D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC25578F-F462-42F1-9C17-82BCE9DE076D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE3476F-16A2-4C24-95E7-CF29F55F5CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE3476F-16A2-4C24-95E7-CF29F55F5CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE3476F-16A2-4C24-95E7-CF29F55F5CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE3476F-16A2-4C24-95E7-CF29F55F5CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4101F0-4550-4DD0-BE00-DA059176E2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4101F0-4550-4DD0-BE00-DA059176E2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4101F0-4550-4DD0-BE00-DA059176E2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4101F0-4550-4DD0-BE00-DA059176E2F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
