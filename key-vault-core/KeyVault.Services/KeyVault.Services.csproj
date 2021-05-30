@@ -2,11 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <Authors>Fl Department of Revenue</Authors>
-        <Company>Fl Department of Revenue</Company>
+        <Authors>Wiregrass Code Technology</Authors>
+        <Company>Wiregrass Code Technology</Company>
         <Product>Azure Key Vault</Product>
         <Description>Azure Key Vault services library</Description>
-        <Copyright>Copyright © 2020-2021 Fl Department of Revenue</Copyright>
+        <Copyright>Copyright © 2020-2021 Wiregrass Code Technology</Copyright>
         <AssemblyName>KeyVault.Services</AssemblyName>
         <RootNamespace>KeyVault.Services</RootNamespace>
         <SignAssembly>true</SignAssembly>
