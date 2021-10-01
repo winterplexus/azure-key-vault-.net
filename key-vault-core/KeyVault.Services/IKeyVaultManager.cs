@@ -1,7 +1,7 @@
 ﻿//
 //  IKeyVaultManager.cs
 //
-//  Copyright (c) Wiregrass Code Technology 2020-2021
+//  Wiregrass Code Technology 2020-2021
 //
 namespace KeyVault.Services
 {

@@ -1,7 +1,7 @@
 ﻿//
 //  SecretsManagement.cs
 //
-//  Copyright (c) Wiregrass Code Technology 2020-2021
+//  Wiregrass Code Technology 2020-2021
 //
 using System;
 using System.Threading.Tasks;
