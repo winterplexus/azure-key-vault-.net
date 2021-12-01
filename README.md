@@ -1,7 +1,7 @@
 Azure Key Vault Applications for .NET
 =====================================
 
-Azure Key Vault services based on .NET core platform using Microsoft Identity Client and Azure Security Key Vault Client.
+Azure Key Vault services based on .NET 6 platform using Microsoft Identity Client and Azure Security Key Vault Client.
 
 Key Vault services services library can provision and manage keys and secrets using the primary interface:
 

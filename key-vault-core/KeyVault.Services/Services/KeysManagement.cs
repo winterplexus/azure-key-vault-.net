@@ -1,7 +1,7 @@
 ﻿//
 //  KeysManagement.cs
 //
-//  Wiregrass Code Technology 2020-2021
+//  Wiregrass Code Technology 2020-2022
 //
 using System;
 using System.Threading.Tasks;
@@ -25,7 +25,7 @@ namespace KeyVault.Services
 
             var configuration = configurationSection;
 
-            var clientSecretCredential = new ClientSecretCredential(configuration["TenantId"],
+            var clientSecretCredential = new ClientSecretCredential(configuration["Tenant"],
                                                                     configuration["ClientId"],
                                                                     configuration["ClientSecret"]);
 

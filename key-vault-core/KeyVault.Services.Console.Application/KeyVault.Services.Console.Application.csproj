@@ -2,15 +2,15 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <Authors>Wiregrass Code Technology</Authors>
         <Company>Wiregrass Code Technology</Company>
         <Product>Azure Key Vault</Product>
         <Description>Azure Key Vault services console application</Description>
-        <Copyright>Copyright © 2020-2021 Wiregrass Code Technology</Copyright>
+        <Copyright>Copyright © 2020-2022 Wiregrass Code Technology</Copyright>
         <AssemblyName>KeyVault.Services.Console.Application</AssemblyName>
         <RootNamespace>KeyVault.Services.Console.Application</RootNamespace>
-        <SignAssembly>true</SignAssembly>
+        <SignAssembly>True</SignAssembly>
         <AssemblyOriginatorKeyFile>NameKey.snk</AssemblyOriginatorKeyFile>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <AnalysisMode>AllEnabledByDefault</AnalysisMode>
@@ -19,11 +19,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Primitives" Version="6.0.0" />
     </ItemGroup>
 
     <ItemGroup>
